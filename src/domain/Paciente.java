@@ -1,9 +1,10 @@
 package domain;
 
 import java.util.Date;
+import java.util.List;
 
 public class Paciente extends Pessoa {
-    
+
     private String rg;
 
     private Date data_nascimento;
@@ -12,23 +13,24 @@ public class Paciente extends Pessoa {
 
     private String email;
 
-    public Paciente() {
-    }
+    private List<Consulta> consultas;
 
-    public Paciente(String rg, Date data_nascimento, String telefone, String email) {
+    public Paciente(String rg, Date data_nascimento, String telefone, String email, List<Consulta> consultas) {
         this.rg = rg;
         this.data_nascimento = data_nascimento;
         this.telefone = telefone;
         this.email = email;
+        this.consultas = consultas;
     }
 
     public Paciente(Integer codigo, String nome, String cpf, Character sexo, String rg, Date data_nascimento,
-            String telefone, String email) {
+            String telefone, String email, List<Consulta> consultas) {
         super(codigo, nome, cpf, sexo);
         this.rg = rg;
         this.data_nascimento = data_nascimento;
         this.telefone = telefone;
         this.email = email;
+        this.consultas = consultas;
     }
 
     public String getRg() {
@@ -63,10 +65,18 @@ public class Paciente extends Pessoa {
         this.email = email;
     }
 
+    public List<Consulta> getConsultas() {
+        return consultas;
+    }
+
+    public void setConsultas(List<Consulta> consultas) {
+        this.consultas = consultas;
+    }
+
     @Override
     public String toString() {
         return "Paciente [rg=" + rg + ", data_nascimento=" + data_nascimento + ", telefone=" + telefone + ", email="
-                + email + "]";
+                + email + ", consultas=" + consultas + "]";
     }
 
     

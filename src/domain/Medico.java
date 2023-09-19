@@ -1,6 +1,7 @@
 package domain;
 
 import java.util.Date;
+import java.util.List;
 
 public class Medico extends Pessoa {
     
@@ -12,23 +13,24 @@ public class Medico extends Pessoa {
 
     private String especialidade;
 
-    public Medico() {
-    }
+    private List<Consulta> consultas;
 
-    public Medico(String rg, Date data_nascimento, String crm, String especialidade) {
+    public Medico(String rg, Date data_nascimento, String crm, String especialidade, List<Consulta> consultas) {
         this.rg = rg;
         this.data_nascimento = data_nascimento;
         this.crm = crm;
         this.especialidade = especialidade;
+        this.consultas = consultas;
     }
 
     public Medico(Integer codigo, String nome, String cpf, Character sexo, String rg, Date data_nascimento, String crm,
-            String especialidade) {
+            String especialidade, List<Consulta> consultas) {
         super(codigo, nome, cpf, sexo);
         this.rg = rg;
         this.data_nascimento = data_nascimento;
         this.crm = crm;
         this.especialidade = especialidade;
+        this.consultas = consultas;
     }
 
     public String getRg() {
@@ -55,20 +57,27 @@ public class Medico extends Pessoa {
         this.crm = crm;
     }
 
-    public String getespecialidade() {
+    public String getEspecialidade() {
         return especialidade;
     }
 
-    public void setespecialidade(String especialidade) {
+    public void setEspecialidade(String especialidade) {
         this.especialidade = especialidade;
+    }
+
+    public List<Consulta> getConsultas() {
+        return consultas;
+    }
+
+    public void setConsultas(List<Consulta> consultas) {
+        this.consultas = consultas;
     }
 
     @Override
     public String toString() {
         return "Medico [rg=" + rg + ", data_nascimento=" + data_nascimento + ", crm=" + crm + ", especialidade="
-                + especialidade + "]";
+                + especialidade + ", consultas=" + consultas + "]";
     }
 
     
-
 }
