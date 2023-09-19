@@ -4,8 +4,6 @@ public class Exame {
     
     private Integer codigo;
 
-    private PrescricaoExame prescricao;
-
     private String tipo;
 
     private String nome;
@@ -15,12 +13,11 @@ public class Exame {
     public Exame() {
     }
 
-    public Exame(Integer codigo, String tipo, String nome, String descricao, PrescricaoExame prescricao) {
+    public Exame(Integer codigo, String tipo, String nome, String descricao) {
         this.codigo = codigo;
         this.tipo = tipo;
         this.nome = nome;
         this.descricao = descricao;
-        this.prescricao = prescricao;
     }
 
     public Integer getCodigo() {
@@ -55,17 +52,9 @@ public class Exame {
         this.descricao = descricao;
     }
 
-    public PrescricaoExame getPrescricao() {
-        return prescricao;
-    }
-
-    public void setPrescricao(PrescricaoExame prescricao) {
-        this.prescricao = prescricao;
-    }
-
     @Override
     public String toString() {
-        return "Exame [codigo=" + codigo + ", prescricao=" + prescricao + ", tipo=" + tipo + ", nome=" + nome
+        return "Exame [codigo=" + codigo + ", tipo=" + tipo + ", nome=" + nome
                 + ", descricao=" + descricao + "]";
     }
 
