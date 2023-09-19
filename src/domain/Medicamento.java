@@ -15,8 +15,6 @@ public class Medicamento {
     public Medicamento() {
     }
 
-    
-
     public Medicamento(Integer codigo, PrecricaoMedicamento prescricao, String tipo, String nome, String descricao) {
         this.codigo = codigo;
         this.prescricao = prescricao;
