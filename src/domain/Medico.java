@@ -75,7 +75,7 @@ public class Medico extends Pessoa {
 
     @Override
     public String toString() {
-        return "Medico [rg=" + rg + ", data_nascimento=" + data_nascimento + ", crm=" + crm + ", especialidade="
+        return "Medico [" + super.toString() + "rg=" + rg + ", data_nascimento=" + data_nascimento + ", crm=" + crm + ", especialidade="
                 + especialidade + ", consultas=" + consultas + "]";
     }
 

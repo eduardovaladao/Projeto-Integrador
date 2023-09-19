@@ -62,7 +62,7 @@ public class Recepcionista extends Pessoa {
 
     @Override
     public String toString() {
-        return "Recepcionista [email=" + email + ", telefone=" + telefone + ", recepcao=" + recepcao + ", consultas="
+        return "Recepcionista [" + super.toString() + "email=" + email + ", telefone=" + telefone + ", recepcao=" + recepcao + ", consultas="
                 + consultas + "]";
     }
 

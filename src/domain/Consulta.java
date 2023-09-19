@@ -24,6 +24,11 @@ public class Consulta {
 
     private List<PrescricaoMedicamento> prescricoes_medicamento;
 
+    
+
+    public Consulta() {
+    }
+
     public Consulta(Integer codigo, String local, Date data_realizacao, Time horario_realizacao, Paciente paciente,
             Medico medico, Recepcionista recepcionista, List<PrescricaoExame> prescricoes_exames,
             List<PrescricaoMedicamento> prescricoes_medicamento) {
