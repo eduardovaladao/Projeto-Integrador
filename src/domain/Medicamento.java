@@ -4,6 +4,8 @@ public class Medicamento {
     
     private Integer codigo;
 
+    private PrecricaoMedicamento prescricao;
+
     private String tipo;
 
     private String nome;
@@ -11,6 +13,16 @@ public class Medicamento {
     private String descricao;
 
     public Medicamento() {
+    }
+
+    
+
+    public Medicamento(Integer codigo, PrecricaoMedicamento prescricao, String tipo, String nome, String descricao) {
+        this.codigo = codigo;
+        this.prescricao = prescricao;
+        this.tipo = tipo;
+        this.nome = nome;
+        this.descricao = descricao;
     }
 
     public Integer getCodigo() {
@@ -45,9 +57,21 @@ public class Medicamento {
         this.descricao = descricao;
     }
 
+    
+    public PrecricaoMedicamento getPrescricao() {
+        return prescricao;
+    }
+
+
+
+    public void setPrescricao(PrecricaoMedicamento prescricao) {
+        this.prescricao = prescricao;
+    }
+
     @Override
     public String toString() {
-        return "Medicamento [codigo=" + codigo + ", tipo=" + tipo + ", nome=" + nome + ", descricao=" + descricao + "]";
+        return "Medicamento [codigo=" + codigo + ", prescricao=" + prescricao + ", tipo=" + tipo + ", nome=" + nome
+                + ", descricao=" + descricao + "]";
     }
 
     
