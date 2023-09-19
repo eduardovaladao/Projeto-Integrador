@@ -10,25 +10,25 @@ public class Medico extends Pessoa {
 
     private String crm;
 
-    private String epecialidade;
+    private String especialidade;
 
     public Medico() {
     }
 
-    public Medico(String rg, Date data_nascimento, String crm, String epecialidade) {
+    public Medico(String rg, Date data_nascimento, String crm, String especialidade) {
         this.rg = rg;
         this.data_nascimento = data_nascimento;
         this.crm = crm;
-        this.epecialidade = epecialidade;
+        this.especialidade = especialidade;
     }
 
     public Medico(Integer codigo, String nome, String cpf, Character sexo, String rg, Date data_nascimento, String crm,
-            String epecialidade) {
+            String especialidade) {
         super(codigo, nome, cpf, sexo);
         this.rg = rg;
         this.data_nascimento = data_nascimento;
         this.crm = crm;
-        this.epecialidade = epecialidade;
+        this.especialidade = especialidade;
     }
 
     public String getRg() {
@@ -55,18 +55,18 @@ public class Medico extends Pessoa {
         this.crm = crm;
     }
 
-    public String getEpecialidade() {
-        return epecialidade;
+    public String getespecialidade() {
+        return especialidade;
     }
 
-    public void setEpecialidade(String epecialidade) {
-        this.epecialidade = epecialidade;
+    public void setespecialidade(String especialidade) {
+        this.especialidade = especialidade;
     }
 
     @Override
     public String toString() {
-        return "Medico [rg=" + rg + ", data_nascimento=" + data_nascimento + ", crm=" + crm + ", epecialidade="
-                + epecialidade + "]";
+        return "Medico [rg=" + rg + ", data_nascimento=" + data_nascimento + ", crm=" + crm + ", especialidade="
+                + especialidade + "]";
     }
 
     
