@@ -1,29 +1,31 @@
 package domain;
 
 import java.util.Date;
+import java.util.List;
 import java.sql.Time;
 
 public class PrescricaoExame {
     
     private Integer codigo;
-
-    private Consulta consulta;
-
+    
     private Time duracao;
 
     private Date data_realizacao;
 
     private String local;
 
-    public PrescricaoExame() {
-    }
+    private Consulta consulta;
 
-    public PrescricaoExame(Integer codigo, Consulta consulta, Time duracao, Date data_realizacao, String local) {
+    private List<Exame> exames;
+
+    public PrescricaoExame(Integer codigo, Time duracao, Date data_realizacao, String local, Consulta consulta,
+            List<Exame> exames) {
         this.codigo = codigo;
-        this.consulta = consulta;
         this.duracao = duracao;
         this.data_realizacao = data_realizacao;
         this.local = local;
+        this.consulta = consulta;
+        this.exames = exames;
     }
 
     public Integer getCodigo() {
@@ -32,14 +34,6 @@ public class PrescricaoExame {
 
     public void setCodigo(Integer codigo) {
         this.codigo = codigo;
-    }
-
-    public Consulta getConsulta() {
-        return consulta;
-    }
-
-    public void setConsulta(Consulta consulta) {
-        this.consulta = consulta;
     }
 
     public Time getDuracao() {
@@ -66,11 +60,27 @@ public class PrescricaoExame {
         this.local = local;
     }
 
-    @Override
-    public String toString() {
-        return "PrescricaoExame [codigo=" + codigo + ", consulta=" + consulta + ", duracao=" + duracao
-                + ", data_realizacao=" + data_realizacao + ", local=" + local + "]";
+    public Consulta getConsulta() {
+        return consulta;
     }
 
+    public void setConsulta(Consulta consulta) {
+        this.consulta = consulta;
+    }
+
+    public List<Exame> getExames() {
+        return exames;
+    }
+
+    public void setExames(List<Exame> exames) {
+        this.exames = exames;
+    }
+
+    @Override
+    public String toString() {
+        return "PrescricaoExame [codigo=" + codigo + ", duracao=" + duracao + ", data_realizacao=" + data_realizacao
+                + ", local=" + local + ", consulta=" + consulta + ", exames=" + exames + "]";
+    }
+    
     
 }
