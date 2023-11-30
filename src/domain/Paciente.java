@@ -1,5 +1,7 @@
 package domain;
 
+import java.sql.Time;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -79,5 +81,15 @@ public class Paciente extends Pessoa {
                 + email + ", consultas=" + consultas + "]";
     }
 
+    public void reservarConsulta(Medico medico, Date data, Time horario){
+        Boolean confirmacao = medico.confirmarPresenca(data, horario);
+        if(confirmacao == true){
+            Consulta consulta = new Consulta(1, "Sala 111", data, horario, this, medico, null, null, null);
+            this.setConsultas(Arrays.asList(consulta));
+            System.out.println("Sucesso! " + data + " " + horario);
+        } else {
+            System.err.println("Desculpe, algo deu errado! Tente mudar o horário ou a data.");
+        }
+    }
     
 }

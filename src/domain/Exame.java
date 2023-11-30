@@ -66,5 +66,6 @@ public class Exame {
                 + ", prescricao=" + prescricao + "]";
     }
   
+    
         
 }
