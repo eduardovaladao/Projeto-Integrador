@@ -76,22 +76,9 @@ public class Medico extends Pessoa {
 
     @Override
     public String toString() {
-        return "Medico [" + super.toString() + "rg=" + rg + ", data_nascimento=" + data_nascimento + ", crm=" + crm
+        return "Medico [rg=" + rg + ", data_nascimento=" + data_nascimento + ", crm=" + crm
                 + ", especialidade="
                 + especialidade + ", consultas=" + consultas + "]";
-    }
-
-    public Boolean confirmarPresenca(Date data, Time horario) {
-        Boolean r = true;
-        if (consultas != null) {
-            for (Consulta consulta : consultas) {
-                if (consulta.getData_realizacao() == data && consulta.getHorario_realizacao() == horario) {
-                    r = false;
-                    break;
-                }
-            }
-        }
-        return r;
     }
 
 }

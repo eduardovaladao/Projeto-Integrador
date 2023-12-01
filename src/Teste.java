@@ -28,12 +28,13 @@ public class Teste {
             null);
         
         Medico medico1 = new Medico(
-            2, 
+            1, 
             "Samuel Prado", 
             "111.213.141-51", 
             'M', 
             "SP-92.164.369-", 
-            null, "74.457/MG", 
+            null, 
+            "74.457/MG", 
             "Cardiologista", 
             null);
 
