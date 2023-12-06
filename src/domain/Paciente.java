@@ -81,9 +81,11 @@ public class Paciente extends Pessoa {
                 + email + ", consultas=" + consultas + "]";
     }
 
+
+
     /* Fase de testes */
 
-    /*
+    /* 
     public void reservarConsulta(Medico medico, Date data, Time horario){
         Boolean confirmacao = medico.confirmarPresenca(data, horario);
         if(confirmacao == true){
@@ -95,4 +97,6 @@ public class Paciente extends Pessoa {
         }
     }
     */
+
+
 }

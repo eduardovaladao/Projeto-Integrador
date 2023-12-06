@@ -37,8 +37,5 @@ public class Teste {
             "74.457/MG", 
             "Cardiologista", 
             null);
-
-        paciente1.reservarConsulta(medico1, data1, time1);
-        paciente1.reservarConsulta(medico1, data1, time1);
     }
 }
