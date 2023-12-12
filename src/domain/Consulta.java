@@ -24,8 +24,6 @@ public class Consulta {
 
     private List<PrescricaoMedicamento> prescricoes_medicamento;
 
-    
-
     public Consulta() {
     }
 
@@ -123,5 +121,5 @@ public class Consulta {
                 + ", prescricoes_medicamento=" + prescricoes_medicamento + "]";
     }
 
-
+    
 }  

@@ -2,7 +2,6 @@ import java.sql.Time;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Scanner;
 
 import domain.*;
 
@@ -10,11 +9,11 @@ public class Teste {
 
     public static void main(String args[]) throws ParseException {
 
-        Scanner input = new Scanner(System.in);
-
         Date data1 = new SimpleDateFormat("dd/MM/yyyy").parse("12/03/1995");
 
         Time time1 = new Time(10, 0, 0);
+
+        System.out.println("a" + time1);
 
         Paciente paciente1 = new Paciente(
             1, 
@@ -39,6 +38,6 @@ public class Teste {
             null);
 
         paciente1.reservarConsulta(medico1, data1, time1);
-        paciente1.reservarConsulta(medico1, data1, time1);
+        paciente1.reservarConsulta(medico1, data1, time1);*/
     }
 }

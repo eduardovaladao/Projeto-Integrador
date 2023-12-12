@@ -27,11 +27,13 @@ public class App {
 
         Exame exame = new Exame(1, "Imagem", "Angiografia digital", "Avalia os vasos do cérebro ou do coração", null);
 
-
+        /*/
         System.out.println(recepcao.toString() + "\n" + paciente.toString() + "\n" + medico.toString() +
         "\n" + recepcionista.toString() + "\n\n" + consulta.toString() + "\n" + prescricaoMedicamento.toString() +
         "\n" + prescricaoExame.toString() + "\n" + medicamento.toString() + "\n" + exame.toString());
+        */
 
+        System.out.println(medico.getConsultas());
         
     }
 }
