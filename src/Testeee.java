@@ -6,8 +6,7 @@ import java.util.Scanner;
 
 import domain.*;
 
-public class Teste {
-
+public class Testeee {
     public static void main(String args[]) throws ParseException {
 
         Scanner input = new Scanner(System.in);

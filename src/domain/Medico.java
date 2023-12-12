@@ -81,4 +81,16 @@ public class Medico extends Pessoa {
                 + especialidade + ", consultas=" + consultas + "]";
     }
 
+    public Boolean confirmarPresenca(Date data, Time horario){
+        Boolean r = true;
+        Date var_data = consulta.getData_realizacao();
+        Time var_horario = consulta.getHorario_realizacao();
+        for (Consulta consulta : consultas) {
+            if(var_data == data && var_horario == horario){
+                r = false;
+                break;
+            }
+        }
+        return r;
+    }
 }
