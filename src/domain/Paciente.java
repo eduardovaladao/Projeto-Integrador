@@ -82,23 +82,24 @@ public class Paciente extends Pessoa {
                 + email + ", consultas=" + consultas + "]";
     }
 
+
+
     /* Fase de testes */
 
     /*
-     * public void reservarConsulta(Medico medico, Date data, Time horario){
-     * Boolean confirmacao = medico.confirmarPresenca(data, horario);
-     * if(confirmacao == true){
-     * Consulta consulta = new Consulta(1, "Sala 111", data, horario, this, medico,
-     * null, null, null);
-     * this.setConsultas(Arrays.asList(consulta));
-     * System.out.println("Sucesso! " + data + " " + horario);
-     * } else {
-     * System.err.
-     * println("Desculpe, algo deu errado! Tente mudar o horário ou a data.");
-     * }
-     * }
-     */
-
+    public void reservarConsulta(Medico medico, Date data, Time horario){
+        Boolean confirmacao = medico.confirmarPresenca(data, horario);
+        if(confirmacao == true){
+            Consulta consulta = new Consulta(1, "Sala 111", data, horario, this, medico, null, null, null);
+            this.setConsultas(Arrays.asList(consulta));
+            System.out.println("Sucesso!); " + data + " " + horario);
+            return consulta;
+        } else {
+            System.err.println("Desculpe, algo deu errado! Tente mudar o horário ou a data.");
+            return null;
+        }
+    }
+*/
     public Consulta reservarConsulta(Medico medico, Date data, Time horario) {
         Boolean confirmacao = medico.confirmarPresenca(data, horario);
         if(confirmacao == true){

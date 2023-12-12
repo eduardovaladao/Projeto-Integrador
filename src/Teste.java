@@ -38,6 +38,7 @@ public class Teste {
             "Cardiologista", 
             null);
 
-        Consulta nova_consulta = paciente1.reservarConsulta(medico1, data1, time1);        
+        paciente1.reservarConsulta(medico1, data1, time1);
+        paciente1.reservarConsulta(medico1, data1, time1);
     }
 }
