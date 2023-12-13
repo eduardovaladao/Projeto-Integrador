@@ -32,7 +32,16 @@ que estejam cadastrados corretamente e autorizados a acessarem esses serviços.
 
   Por fim, a interface contém ilustrações e leitura fáceis de entender. A simplicidade
 de uma tela visual faz dos nossos usuários convidados de uma interação profissional e 
-elegante, como muitas são as clinicas da Udihealth.
+elegante, como muitas são as clinicas da Udihealth!
+
+  ![image](https://github.com/eduardovaladao/Projeto-Integrador/assets/104527380/aeae641f-bfd3-46b0-b44b-2ea595a1e975)
+
+
+
+
+
+******************************************************************************************************************************************
+
 
 
   
