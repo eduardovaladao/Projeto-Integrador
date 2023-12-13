@@ -12,6 +12,7 @@ Sistema Gerenciador de Clínica Médica
 Nome do sistema: SIRCUDI (Sistema Integrador da Rede de Clínicas UdiHealth Cardio)
 
 
+*******************************************************************************************************************************************************************************************
 
 Propósitos do sistema:
 
