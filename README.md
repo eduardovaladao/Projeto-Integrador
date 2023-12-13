@@ -22,6 +22,8 @@ o encaminhamento de exames laboratoriais.
 pode acessar os serviços online da UdiHealth em qualquer lugar do mundo, desde 
 que estejam cadastrados corretamente e autorizados a acessarem esses serviços.
 
+  ![image](https://github.com/eduardovaladao/Projeto-Integrador/assets/104527380/a6c417e7-a6c8-47d7-b67b-41b11f77cf30)
+
   Por fim, a interface contém ilustrações e leitura fáceis de entender. A simplicidade
 de uma tela visual faz dos nossos usuários convidados de uma interação profissional e 
 elegante, como muitas são as clinicas da Udihealth.
