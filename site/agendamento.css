@@ -14,7 +14,7 @@
 .input-group .form-control {
     position: absolute;
     left: 100px;
-    width: calc(50% - 100px);
+    width: calc(50% - 90px);
 }
 
 span.red {

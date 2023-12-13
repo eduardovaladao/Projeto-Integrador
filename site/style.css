@@ -1345,7 +1345,7 @@ body{
 	font-weight:600;
 }
 .services .single-service h4 a:hover{
-	color:#1A76D1;
+	color: red;
 }
 .services .single-service p{
 	color:#868686;
@@ -1476,7 +1476,7 @@ body{
 	border-radius: 3px;
 	margin: 0 0 0 -52px;
 	margin-top: 49px;
-	box-sizing: ;
+	box-sizing: border-box;
 }
 .testimonials .owl-dots .owl-dot {
 	display: inline-block;

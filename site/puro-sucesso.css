@@ -1,0 +1,58 @@
+.puro-sucesso {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.puro-sucesso-div {
+    width: 30%;
+}
+
+.puro-sucesso-div img {
+    width: 100%;
+    min-width: 10%;
+    margin-top: 20px;
+}
+
+.puro-sucesso-div span {
+    width: 100%;
+    min-width: 10%;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.puro-sucesso-div span:hover {
+    transition: all 1.0s ease-in-out;
+    color: white;
+    background-color: seagreen;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+
+.btzin {
+    color: #FFFFFF;
+    padding: 13px 25px;
+    background-color: #1a76d1;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    position: relative;
+    box-shadow: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.btzin:hover {
+    transition: all 1.0s ease-out;
+    background: #0c1850;
+    color: #fff;
+}
+
+.btzin:active {
+    color: purple;
+}
