@@ -4,11 +4,15 @@ Grupo 5: Eduardo, Lucas Matheus, Samuel, Thiago
 
 *******************************************************************
 
-Sistema Gerenciador de Clínica Médica
+Sistema Gerenciador de Clínica Médica ![image](https://github.com/eduardovaladao/Projeto-Integrador/assets/104527380/a930552f-2913-4c44-bc00-55d4f299a44e)
+
+
+Nome do sistema: SIRCUDI (Sistema Integrador da Rede de Clínicas UdiHealth Cardio)
 
 ![image](https://github.com/eduardovaladao/Projeto-Integrador/assets/104527380/647b9e31-9c78-46d4-a2b0-03fce1932854)
 
-Nome do sistema: SIRCUDI (Sistema Integrador da Rede de Clínicas UdiHealth Cardio)
+
+Propósitos do sistema:
 
   O SIRCUDI tem como objetivo facilitar no agendamento online de 
 consultas médicas das clínicas UdiHealth, além de fornecer as prescrições médicas
