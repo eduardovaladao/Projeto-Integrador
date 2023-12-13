@@ -2,15 +2,12 @@ Projeto Integrador | 2º Ano - Análise e Desenvolvimento de Sistemas
 
 Grupo 5: Eduardo, Lucas Matheus, Samuel, Thiago
 
-*******************************************************************
+*******************************************************************************************************************************************************************************************
+  ![image](https://github.com/eduardovaladao/Projeto-Integrador/assets/104527380/647b9e31-9c78-46d4-a2b0-03fce1932854)
 
-Sistema Gerenciador de Clínica Médica ![image](https://github.com/eduardovaladao/Projeto-Integrador/assets/104527380/a930552f-2913-4c44-bc00-55d4f299a44e)
-
+Sistema Gerenciador de Clínica Médica
 
 Nome do sistema: SIRCUDI (Sistema Integrador da Rede de Clínicas UdiHealth Cardio)
-
-![image](https://github.com/eduardovaladao/Projeto-Integrador/assets/104527380/647b9e31-9c78-46d4-a2b0-03fce1932854)
-
 
 Propósitos do sistema:
 
@@ -19,6 +16,8 @@ consultas médicas das clínicas UdiHealth, além de fornecer as prescrições m
 para exames e medicamentos via remota, gerenciar pacientes e médicos, e acompanhar
 o encaminhamento de exames laboratoriais.
 
+  ![image](https://github.com/eduardovaladao/Projeto-Integrador/assets/104527380/06fd6d66-f464-4f50-ad01-5a239bdb91e6)
+
   Vale destacar que o sistema é baseado em interfaces web. Então qualquer pessoa 
 pode acessar os serviços online da UdiHealth em qualquer lugar do mundo, desde 
 que estejam cadastrados corretamente e autorizados a acessarem esses serviços.
@@ -26,5 +25,6 @@ que estejam cadastrados corretamente e autorizados a acessarem esses serviços.
   Por fim, a interface contém ilustrações e leitura fáceis de entender. A simplicidade
 de uma tela visual faz dos nossos usuários convidados de uma interação profissional e 
 elegante, como muitas são as clinicas da Udihealth.
+
 
   
