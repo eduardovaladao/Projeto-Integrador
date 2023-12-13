@@ -16,13 +16,13 @@ consultas médicas das clínicas UdiHealth, além de fornecer as prescrições m
 para exames e medicamentos via remota, gerenciar pacientes e médicos, e acompanhar
 o encaminhamento de exames laboratoriais.
 
-  ![image](https://github.com/eduardovaladao/Projeto-Integrador/assets/104527380/98c4520a-f6f7-4ae5-8dc2-9344975b6c54)
+  ![image](https://github.com/eduardovaladao/Projeto-Integrador/assets/104527380/518cc7b4-d487-441d-8652-d992314c14c9)
+
 
   Vale destacar que o sistema é baseado em interfaces web. Então qualquer pessoa 
 pode acessar os serviços online da UdiHealth em qualquer lugar do mundo, desde 
 que estejam cadastrados corretamente e autorizados a acessarem esses serviços.
 
-  ![image](https://github.com/eduardovaladao/Projeto-Integrador/assets/104527380/a6c417e7-a6c8-47d7-b67b-41b11f77cf30)
 
   Por fim, a interface contém ilustrações e leitura fáceis de entender. A simplicidade
 de uma tela visual faz dos nossos usuários convidados de uma interação profissional e 
