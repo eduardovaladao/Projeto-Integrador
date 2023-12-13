@@ -1,18 +1,24 @@
-## Getting Started
+Projeto Integrador | 2º Ano - Análise e Desenvolvimento de Sistemas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Grupo 5: Eduardo, Lucas Matheus, Samuel, Thiago
 
-## Folder Structure
+*******************************************************************
 
-The workspace contains two folders by default, where:
+Sistema Gerenciador de Clínica Médica
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Nome do sistema: SIRCUDI (Sistema Integrador da Rede de Clínicas UdiHealth Cardio)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+  O SIRCUDI tem como objetivo facilitar no agendamento online de 
+consultas médicas das clínicas UdiHealth, além de fornecer as prescrições médicas
+para exames e medicamentos via remota, gerenciar pacientes e médicos, e acompanhar
+o encaminhamento de exames laboratoriais.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+  Vale destacar que o sistema é baseado em interfaces web. Então qualquer pessoa 
+pode acessar os serviços online da UdiHealth em qualquer lugar do mundo, desde 
+que estejam cadastrados corretamente e autorizados a acessarem esses serviços.
 
-## Dependency Management
+  Por fim, a interface contém ilustrações e leitura fáceis de entender. A simplicidade
+de uma tela visual faz dos nossos usuários convidados de uma interação profissional e 
+elegante, como muitas são as clinicas da Udihealth.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+  
