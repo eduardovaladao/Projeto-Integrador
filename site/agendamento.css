@@ -1,0 +1,44 @@
+.form {
+    width: 700px;
+    height: fit-content;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.input-group {
+    margin: 12px;
+}
+
+.input-group .form-control {
+    position: absolute;
+    left: 100px;
+    width: calc(50% - 100px);
+}
+
+span.red {
+    color: red;
+}
+
+.btzin {
+    color: #fff;
+    padding: 13px 25px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    position: relative;
+    box-shadow: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.btzin:hover {
+    transition: all 1.0s ease-out;
+    background: #0c5031;
+    color: #fff;
+}
+
+.btzin:active {
+    color: purple;
+}
